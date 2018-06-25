@@ -16,7 +16,7 @@ setup(
     author_email='ew2789@gmail.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/botswana-harvard/edc-constants',
+    url='https://github.com/clinicedc/edc-constants',
     license='GPL license, see LICENSE',
     description='Constants and Choices for the Edc.',
     long_description=README,

@@ -22,6 +22,7 @@ setup(
     url="https://github.com/clinicedc/edc-constants",
     license="GPL license, see LICENSE",
     description="Common constants & choices for clinicedc/edc projects.",
+    long_description_content_type="text/x-rst",
     long_description=README,
     zip_safe=False,
     keywords="django edc choices constants",

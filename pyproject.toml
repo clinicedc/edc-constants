@@ -30,6 +30,8 @@ omit = ["requirements.txt"]
 
 [tool.tox]
 legacy_tox_ini = """
+
+
 [tox]
 envlist =
     lint
@@ -37,9 +39,9 @@ isolated_build = true
 
 [gh-actions]
 python =
-    3.9: lint
-    3.10: lint
-
+    3.8: py38
+    3.9: py39, lint
+    3.10: py310
 
 [testenv]
 deps =
